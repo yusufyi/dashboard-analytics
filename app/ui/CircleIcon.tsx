@@ -19,13 +19,12 @@ const CircleIcon: React.FC<CircleIconProps> = ({
   const handClick = () => {
     setActive(!active);
   };
-  console.log("active", active);
 
   return (
     <div
       style={{ fontSize: size }}
-      className={`rounded-full p-4  mb-4 ${
-        active ? "bg-slate-900 text-slate-200" : "bg-slate-200 text-slate-900"
+      className={`rounded-full  h-circle w-circle  flex justify-center items-center  ${
+        active ? "bg-slate-900 text-slate-100" : "bg-slate-100 text-slate-900"
       }`}
     >
       <IconComponent

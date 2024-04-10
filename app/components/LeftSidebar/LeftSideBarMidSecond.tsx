@@ -10,7 +10,7 @@ import { CiSettings } from "react-icons/ci";
 export const LeftSideBarMidSecond = () => {
   return (
     <div className=" h-2/6">
-      <div className="flex flex-col   items-center h-full">
+      <div className="flex flex-col space-y-2 items-center h-full">
         <CircleIcon size="12px" icon={BsBell} color="" />
         <CircleIcon size="12px" icon={BsBarChart} color="" />
         <CircleIcon size="12px" icon={BsChatDots} color="" />

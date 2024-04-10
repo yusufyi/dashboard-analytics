@@ -14,10 +14,7 @@ const LeftSideBarTop = () => {
     <div className="h-1/6  content-center ">
       <div className=" ">
         <div className="flex justify-center items-center">
-          <div
-            style={{ fontSize: "12px" }}
-            className="rounded-full p-4 bg-slate-200 text-slate-600 dark:bg-slate-600 dark:text-slate-200  "
-          >
+          <div className="rounded-full p-4 bg-slate-100 text-slate-900 dark:bg-slate-900 dark:text-slate-100  h-circle w-circle ">
             {mounted && theme === "dark" ? (
               <BsSunFill onClick={() => setTheme("light")} />
             ) : (

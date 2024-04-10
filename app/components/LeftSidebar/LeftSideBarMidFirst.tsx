@@ -7,8 +7,8 @@ import { BsClipboard } from "react-icons/bs";
 const LeftSideBarMidFirst = () => {
   return (
     <div className=" h-1/6">
-      <div className="flex flex-col   justify-start   items-center h-full">
-        <div className="text-4xl ">
+      <div className="flex flex-col   space-y-2   items-center h-full">
+        <div className="text-4xl  ">
           <CircleIcon size="12px" icon={BiHome} color="" />
         </div>
 

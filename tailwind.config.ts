@@ -21,8 +21,20 @@ const config: Config = {
         "olive": "#cbe2c8",
         "softlime": "#e8fd9d",
         "grayviolet": "#d6dfea",
-        
+        'midgrey': '#E8EEEA',
       },
+      height: {
+        "circle": "3rem",
+        'avatar': '2.5rem',
+       
+      },
+      width: {
+        "circle": "3rem",
+        'avatar': '2.5rem',
+      },
+
+     
+        
       
      },
     },

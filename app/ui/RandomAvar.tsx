@@ -26,7 +26,7 @@ export const RandomAvar = () => {
     <div>
       {randomAvar && (
         <img
-          className="inline-block h-10 w-10 rounded-full  ring-white m-1"
+          className="inline-block  w-avatar h-avatar rounded-full  ring-white "
           src={randomAvar.avatar}
           alt="avatar"
         />
