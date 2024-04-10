@@ -2,23 +2,18 @@
 import CircleIcon from "@/app/ui/CircleIcon";
 import React from "react";
 import { BiHome } from "react-icons/bi";
+import { BsClipboard } from "react-icons/bs";
 
 const LeftSideBarMidFirst = () => {
-  const [active, setActive] = React.useState(false);
-  const handClick = () => {
-    setActive(!active);
-  };
   return (
-    <div className="border h-1/6">
-      <div className="flex justify-center items-center">
+    <div className=" h-1/6">
+      <div className="flex flex-col   justify-start   items-center h-full">
         <div className="text-4xl ">
-          <CircleIcon
-            size="24px"
-            icon={BiHome}
-            color=""
-            onClick={handClick}
-            active={active}
-          />
+          <CircleIcon size="12px" icon={BiHome} color="" />
+        </div>
+
+        <div className="text-4xl ">
+          <CircleIcon size="12px" icon={BsClipboard} color="" />
         </div>
       </div>
     </div>

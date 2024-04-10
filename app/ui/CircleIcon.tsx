@@ -14,18 +14,24 @@ const CircleIcon: React.FC<CircleIconProps> = ({
   size,
   icon: IconComponent,
   color,
-  onClick,
-  active,
 }) => {
+  const [active, setActive] = React.useState(false);
+  const handClick = () => {
+    setActive(!active);
+  };
   console.log("active", active);
+
   return (
     <div
       style={{ fontSize: size }}
-      className={`rounded-full p-4 ${
-        active ? "bg-slate-600 text-slate-200" : "bg-slate-200 text-slate-600"
+      className={`rounded-full p-4  mb-4 ${
+        active ? "bg-slate-900 text-slate-200" : "bg-slate-200 text-slate-900"
       }`}
     >
-      <IconComponent onClick={onClick} />
+      <IconComponent
+        onClick={handClick}
+        className={`cursor-pointer ${color}`}
+      />
     </div>
   );
 };
