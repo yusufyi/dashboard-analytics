@@ -22,6 +22,9 @@ const config: Config = {
         "softlime": "#e8fd9d",
         "grayviolet": "#d6dfea",
         'midgrey': '#E8EEEA',
+        'pgreen': '#76BC6A',
+        'pyellow': '#FAED73',
+        'pgray': '#D1D6D3',
       },
       height: {
         "circle": "3rem",

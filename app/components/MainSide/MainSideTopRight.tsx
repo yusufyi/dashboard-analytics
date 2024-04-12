@@ -4,7 +4,7 @@ import { BiSearch } from "react-icons/bi";
 
 const MainSideTopRight = () => {
   return (
-    <div className="flex items-center px-4">
+    <div className="flex items-center px-4 overflow-hidden">
       <SmallButton text="Dashboard" color="softlime" />
       <SmallButton
         avatar={

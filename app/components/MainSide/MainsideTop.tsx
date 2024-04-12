@@ -4,7 +4,7 @@ import MainSideTopRight from "./MainSideTopRight";
 
 const MainsideTop = () => {
   return (
-    <div className="border h-1/6 flex justify-between">
+    <div className="h-1/12 flex justify-between overflow-hidden">
       <MainsideTopLeft />
       <MainSideTopRight />
     </div>

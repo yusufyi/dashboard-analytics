@@ -6,7 +6,7 @@ import { LeftSideBarBottom } from "./LeftSideBarBottom";
 
 const LeftSidebar = () => {
   return (
-    <div className=" h-screen w-1/6   bg-olive  dark:bg-grayviolet  overflow-hidden">
+    <div className=" h-screen w-1/12   bg-olive  dark:bg-grayviolet  overflow-hidden">
       <LeftSideBarTop />
       <LeftSideBarMidFirst />
       <LeftSideBarMidSecond />
