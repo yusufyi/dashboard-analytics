@@ -4,6 +4,7 @@ import CircleIcon from "@/app/ui/CircleIcon";
 import React from "react";
 
 import { LuCalendarDays } from "react-icons/lu";
+import WorkingTimes from "./WorkingTimes";
 
 const MainSideMiddleRight = () => {
   return (
@@ -17,7 +18,9 @@ const MainSideMiddleRight = () => {
           <CircleIcon size="12px" icon={LuCalendarDays} color="" />
         </div>
       </div>
-      <BigSqueare>mid</BigSqueare>
+      <BigSqueare>
+        <WorkingTimes />
+      </BigSqueare>
     </div>
   );
 };
