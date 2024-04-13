@@ -10,7 +10,7 @@ export const DaysChart: FC<Props> = ({ size, color, day }) => {
   if (color === "softlime") {
     return (
       <div
-        className={`bg-softlime ${size} rounded-t-full w-12  flex justify-center items-end`}
+        className={`bg-softlime border ${size} rounded-t-full w-12  flex justify-center items-end`}
       >
         {day}
       </div>
@@ -18,7 +18,7 @@ export const DaysChart: FC<Props> = ({ size, color, day }) => {
   }
   return (
     <div
-      className={`bg-pgray  ${size} rounded-t-full w-12  flex justify-center items-end`}
+      className={`bg-pgray border ${size} rounded-t-full w-12  flex justify-center items-end`}
     >
       {day}
     </div>

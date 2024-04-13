@@ -10,7 +10,7 @@ const SmallButton = ({ avatar, text, color }: SmallButtonProps) => {
   console.log(color);
   return (
     <div
-      className={`flex ${
+      className={`flex border ${
         color ? `bg-${color}` : "bg-slate-100"
       } items-center p-1  h-14 ml-2 rounded-full   `}
     >

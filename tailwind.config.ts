@@ -23,8 +23,10 @@ const config: Config = {
         "grayviolet": "#d6dfea",
         'midgrey': '#E8EEEA',
         'pgreen': '#76BC6A',
-        'pyellow': '#FAED73',
+        'pyellow': '#E9FF79',
         'pgray': '#D1D6D3',
+        'pblue': '#D6DFEA',
+       
       },
       height: {
         "circle": "3rem",

@@ -23,7 +23,7 @@ const CircleIcon: React.FC<CircleIconProps> = ({
   return (
     <div
       style={{ fontSize: size }}
-      className={`rounded-full  h-circle w-circle  flex justify-center items-center  ${
+      className={`rounded-full  border h-circle w-circle  flex justify-center items-center  ${
         active ? "bg-slate-900 text-slate-100" : "bg-slate-100 text-slate-900"
       }`}
     >
