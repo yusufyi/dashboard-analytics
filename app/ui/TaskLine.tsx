@@ -2,9 +2,9 @@ import React from "react";
 import { BiCheck } from "react-icons/bi";
 
 interface TaskLineProps {
-  text: string;
-  task: "Done" | "Hold" | "Progress";
-  hours: number;
+  text?: string;
+  task?: string;
+  hours?: number;
 }
 
 const TaskLine: React.FC<TaskLineProps> = (props) => {

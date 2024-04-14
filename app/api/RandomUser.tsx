@@ -1,6 +1,6 @@
 import React from "react";
 
-interface RandomUserProps {
+export interface RandomUserProps {
   first: string;
   last: string;
   email: string;

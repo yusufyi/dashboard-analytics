@@ -23,12 +23,8 @@ const RightSideBottom = () => {
   ];
 
   //set array of chat
-  const [chat, setChat] = useState<ChatProps[] | null>(null);
+  const [chat, setChat] = useState<ChatProps[]>(data);
   const [text, setText] = useState<string>("");
-
-  useEffect(() => {
-    setChat(data);
-  }, []);
 
   const handleChat = () => {
     const newChat = {
@@ -44,7 +40,7 @@ const RightSideBottom = () => {
     <div className=" h-full  w-80   rounded-2xl p-2 m-4 flex flex-col  space-y-4 items-center  justify-between overflow-hidden ">
       <div className="flex flex-col  items-center w-full space-y-4 pt-10  max-h-96 justify-end overflow-scroll">
         {chat?.map((item, index) => (
-          <div className="flex  w-full  ">
+          <div key={item.avatar} className="flex  w-full  ">
             <img
               src={item.avatar}
               alt="avatar"
