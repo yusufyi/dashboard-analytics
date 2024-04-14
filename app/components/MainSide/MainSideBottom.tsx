@@ -8,7 +8,7 @@ import MainSideBottomRight from "./MainSideBottomRight";
 
 export const MainSideBottom = () => {
   return (
-    <div className="flex flex-col border ">
+    <div className="flex flex-col ">
       <div className="flex ">
         <div className="flex justify-between flex-1 px-6 items-center">
           <div className="flex flex-col">

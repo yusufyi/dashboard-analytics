@@ -5,7 +5,7 @@ import { MainSideBottom } from "./MainSideBottom";
 
 const MainSide = () => {
   return (
-    <div className="border w-4/6 bg-midgrey">
+    <div className=" w-4/6 ">
       <MainsideTop />
       <MainSideMiddle />
       <MainSideBottom />
